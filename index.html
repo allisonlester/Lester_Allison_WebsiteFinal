@@ -1,11 +1,108 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="index.css">
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <div></div>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasama Website</title>
+    <link rel="stylesheet" href="stylesheet/stylesheet.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="mobil-nav" style="display: none;">
+        <button id="close-menu">X</button>
+        <p><a href="#">Reservations</a></p>
+        <p><a href="#">Menu</a></p>
+        <p><a href="#">About</a></p>
+        <p><a href="#">Contact</a></p>
+    </div>
+    <header class="grid-container header a">
+        <div>
+            <img src="images/kasamalogo.png" alt="logo" width="120">
+        </div>
+        <div>
+            <nav class="nav a">
+                <a href="#">Reservations</a>
+                <a href="#">Menu</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <img src="images/line.png" width="700px" class="brownstuff">
+                <button id="hamburger-menu"><span class="material-symbols-outlined">menu</span>
+                </button>
+            </nav>
+        </div>
+    </header>
+    <main class="background">
+        <section class="hero-image">
+                <div class="hero-text">
+                    <h1>K A S A M A</h1>
+                    <p>A Modern Filipino Resturant</p>
+                 </div>
+         </section>
+         <section class="grid-container">
+        <div class="spacing">
+            <img src="images/2pic.png" alt="food" width="532px" height="408px">
+        </div>
+        <div class="body-text">
+            <h2>Our Values</h2>
+            <p>Kasama is a Filipino restaurant that builds their foundations on Authenticity, Inclusivity, and Quality Service. By incorporating these values and concepts, Kasama creates a dining experience that not only showcases the rich and diverse flavors of Filipino cuisine but also pays tribute to its cultural heritage.</p>
+        </div>
+        </section>
+        <section class="grid-container">
+            <div class="body-text2">
+                <h2 class="center">Our Hours</h2>
+                <h3>Monday to Thursday:</h3>
+                    <p>Open: 5:00 PM</p>
+                    <p>Last Seating: 9:00 PM</p>
+                    <p>Closing: 10:00 PM</p>
+
+                    <h3>Friday to Sunday:</h3>
+                    
+                    <p>Open: 11:00am AM</p>
+                    <p>Last Seating: 9:00 PM</p>
+                    <p>Closing: 10:00 PM</p>
+            </div>
+            <div class="spacing2">
+                <img src="images/3pic.png" alt="food" width="532px" height="408px">
+            </div>
+            </section>
+            <section>
+                <div class="background-color">
+                    <h1 class="main-text">Next Steps</h1>
+                    <div class="image-container">
+                      <img src="images/food1.png" alt="1" class="image">
+                        <button class="button" class="button:hover">Reservations</button>
+                    </div>
+                    <div class="image-container">
+                      <img src="images/food2.png" alt="2" class="image">
+                        <button class="button" class="button:hover">Menu</button>
+                    </div>
+                    <div class="image-container">
+                      <img src="images/food3.png" alt="3" class="image">
+                         <button class="button" class="button:hover">About us</button>
+                    </div>  
+                  </div>
+            </section>
+            <section class="grid-container">
+                <div class="body-text">
+                <h1 class="spacing3">Reasons To Stop By</h1>
+                <p class="spacing3">Dinning at a Filipino restaurant offers not only a delicious Culinary experience bit also a cultural journey filled with unique Flavors, warm hospitality, and the opportunity to explore The rich tapestry of Filipino cuisine.</p>
+                </div>
+            </section>
+            <section>
+                <div class="bottom-image">
+                    <img src="images/4pic.png" alt="food" width="420" height="300">
+                    <img src="images/5pic.png" alt="food" width="420" height="300">
+                </div>
+            </section>
+    </main>
+    <footer>
+        <section class="footer">
+            <div>
+                <img src="images/6pic.png" alt="bottom" width="100%">
+            </div>
+        </section>
+    </footer>
+    <script src="JS/javascript.js"></script>
+</body>
 </html>
